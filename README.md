@@ -20,6 +20,6 @@ This heuristics is applied after a value is assigned to a variable. The function
 This heuristics is applied as a propagation step after a value is assigned to variable. A queue is used to keep track of the arcs that need to be checked for inconsistency. Each arc is stored in a queue as a tuple (two values) list. Each arc is then checked for inconsistency, if any value needs to deleted from the domain of say X ,then every arc (Y,X) pointing to X must be inserted into the queue for checking. Finally, it returns the CSP object with new domain values for the variables.
 
 **Reference Materials**  
-* Book: Artificial Intelligence: A Modern Approach by Stuart Russell and Peter Norvig
-* Notes: Professor Shekhar Pradhan Lecture notes 
-* Website: http://aima.cs.berkeley.edu/
+* Book: Artificial Intelligence: A Modern Approach by Stuart Russell and Peter Norvig  
+* Book Website: http://aima.cs.berkeley.edu/  
+* Instructor : Professor Shekhar Pradhan from Marist College (https://www.linkedin.com/in/shekhar-pradhan-55412b11/)
